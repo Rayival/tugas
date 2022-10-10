@@ -1,0 +1,59 @@
+
+body{
+    width: 960px;
+    margin: 30px auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 3px solid #eaeaea;
+    background-color: aliceblue;
+}
+header {
+    right: 0;
+    z-index: 1000;
+    position: relative;
+    align-items: center;
+    padding: 10px;
+}
+header img {
+    width: 100px;
+    float: left;
+}
+img {
+    width: 100%;
+    border-radius: 0%;
+}
+header h1 {
+    text-align: center;
+    color: darkred;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 3px black;
+}
+header h4 {
+    text-align: center;
+    color: darkgreen;
+}
+main{
+    display: flex;
+}
+nav{
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+}
+nav li{
+    float: left;
+    margin: 0 10px;
+}
+section {
+    width: 70%;
+    background-color:brown;
+}
+aside {
+    width: 38%;
+    background-color: rgb(1, 136, 255);
+}
+footer{
+    padding: 15px;
+    text-align: center;
+    background-color: darkslategray;
+}
